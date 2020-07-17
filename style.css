@@ -20,9 +20,11 @@ a{
 /*-----------header--------------*/
 .container{
     margin: 40px;
+    width: 80%;
+    padding: 20px;
 }
 .heading-section{
-    background-color:#2C3539;
+    background-color:#2C3535;
 }
 .logo{
     display: flex;
@@ -38,44 +40,39 @@ a{
     justify-content: flex-end;
     align-content: center;
     align-items: center;
-    font-size: 025px
+    font-size:25px
         
 }
 
 .menu-bar li{
-    margin-right: 20px;
+    margin-right:0px;
     color: aliceblue;
 }
 
 .my-image{
     width: 100%;
-    background-image: url(img/big.webp);
+    background-image: url(img/img\ 90.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 }
-.my-image{
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-}
-.image-suraj img{
+.image-pooja img{
     align-self: center;
-    margin-left: 45%;
+    margin-left:45%;
     image-orientation: center;
     margin-top: 20px;
     border-radius: 50%;
 }
-.image-suraj h1{
+.image-pooja h1{
     text-align: center;
     align-items: center;
     margin-top: 20px;
     margin-left: 70px;
 }
-.image-suraj p{
+.image-pooja p{
     text-align: center;
     margin: 20px;
-    margin-left: 70px;
+    margin-left:0px;
     padding: 40px;
     font-size: 30px;
 }
